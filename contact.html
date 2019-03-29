@@ -8,69 +8,105 @@
     <title>Katherine Fleming Portfolio</title>
     <!-- CSS File -->
     <link rel="stylesheet" type="text/CSS" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <section class="header-bar"></section>
 
-<body class="background">
-    <header>
-        <h1 class="container heading">Katherine Fleming</h1>
-        <nav class="container">
-            <!-- Links and Header for additional pages -->
-            <h2 class="navigation">
-                <a class="navigation" href="index.html">About Me</a>
-                <a> | </a>
-                <a class="navigation" href="portfolio.html">Portfolio</a>
-                <a> | </a>
-                <a class="navigation" href="contact.html">Contact</a>
-            </h2>
-        </nav>
-    </header>
-    <div class="main-section container">
-        <section>
-            <section class="titles">Contact</section>
-            <!-- Underline -->
-            <hr />
-            <!-- Form Input for Name, Email, and Message -->
-            <form>
-                Name<br>
-                <input type="text" name="fullname" value="John Smith">
-                <br>
-                Email<br>
-                <input type="text" name="email" value="example@gmail.com">
-                <br>
-                Message<br>
-                <textarea type="textarea" name="textarea" value=""></textarea>
-                <br>
-                <!-- Submit Button at bottom of Form -->
-                <input type="submit" name="submit" onclick="alert('Thank you!')" value="Submit">
-            </form>
-        </section>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <br />
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Me <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio Page</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Application Portfolio
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="https://github.com/kef12/Crystal-Collector-Application">Crystal
+                        Collector Application</a>
+                    <a class="dropdown-item" href=" https://kef12.github.io/Train-Scheduler-Application/">Train Scheduler Application</a>
+                    <a class="dropdown-item" href="https://github.com/kef12/burger">Burger Application</a>
+                    <a class="dropdown-item" href="https://github.com/kef12/Friend-Finder">Friend-Finder Application</a>
+                    <a class="dropdown-item" href="https://github.com/kef12/Project-One">Job Search Application</a>
+                    <a class="dropdown-item" href="https://github.com/kef12/Project-Two">Book Match Application</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="main-section container">
+    <section>
+        <section class="titles">Contact</section>
+        <!-- Underline -->
+        <hr />
+        <!-- Form Input for Name, Email, and Message -->
+        <form>
+            Name<br>
+            <input type="text" name="fullname" value="John Smith">
+            <br>
+            Email<br>
+            <input type="text" name="email" value="example@gmail.com">
+            <br>
+            Message<br>
+            <textarea type="textarea" name="textarea" value=""></textarea>
+            <br>
+            <!-- Submit Button at bottom of Form -->
+            <input type="submit" name="submit" onclick="alert('Thank you!')" value="Submit">
+        </form>
+    </section>
+
+    <br />
+    <hr />
+
+    <!-- Side Bar Section -->
+    <aside class="side-bar">
+        <h3 class="titles">Connect with Me</h3>
+        <h2 class="paragraph">Email:kef12@comcast.net Phone Number:(303)501-4490</h2>
+        <!-- Underline -->
         <hr />
 
-        <!-- Side Bar Section -->
-        <aside class="side-bar">
-            <h3 class="titles">Connect with Me</h3>
-            <h2 class="paragraph">Email:kef12@comcast.net Phone Number:(303)501-4490</h2>
-            <!-- Underline -->
-            <hr />
-
-            <!-- Images and Links for Social Media -->
-            <section class="link-images">
-                <a href="https://github.com/kef12">
-                    <img class="Connect" src="./assets/images/github.png" alt="GitHub-logo">
-                </a>
-                <a href="https://www.linkedin.com/in/katherine-f-964194b4/">
-                    <img class="Connect" src="./assets/images/linkedin.jpeg" alt="LinkedIn-logo">
-                </a>
-                <a href="https://stackoverflow.com/users/10467115/katherine-fleming">
-                    <img class="Connect" src="./assets/images/overflow.png" alt="Stack-Overflow-logo">
-                </a>
-            </section>
-        </aside>
-    </div>
+        <!-- Images and Links for Social Media -->
+        <section class="link-images">
+            <a href="https://github.com/kef12">
+                <img class="Connect" src="./assets/images/github.png" alt="GitHub-logo">
+            </a>
+            <a href="https://www.linkedin.com/in/katherine-f-964194b4/">
+                <img class="Connect" src="./assets/images/linkedin.jpeg" alt="LinkedIn-logo">
+            </a>
+            <a href="https://stackoverflow.com/users/10467115/katherine-fleming">
+                <img class="Connect" src="./assets/images/overflow.png" alt="Stack-Overflow-logo">
+            </a>
+        </section>
+    </aside>
+</div>
+<!--Links to jQuery and Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
 </body>
 
 </html>

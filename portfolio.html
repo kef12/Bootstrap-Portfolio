@@ -8,113 +8,166 @@
   <title>Katherine Fleming Portfolio</title>
   <!-- CSS File -->
   <link rel="stylesheet" type="text/CSS" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <section class="header-bar"></section>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<body class="background">
-  <header>
-    <h1 class="container heading">Katherine Fleming</h1>
-    <nav class="container">
-      <!-- Links and Header for additional pages -->
-      <h2 class="navigation">
-        <a class="navigation" href="index.html">About Me</a>
-        <a> | </a>
-        <a class="navigation" href="portfolio.html">Portfolio</a>
-        <a> | </a>
-        <a class="navigation" href="contact.html">Contact</a>
-      </h2>
-    </nav>
-  </header>
-  <div class="main-section container">
-    <!-- Porfolio Images and Links-->
-    <section>
-      <section class="titles">Portfolio</section>
-      <!-- Underline -->
-      <hr />
-      <!-- Portfolio Images and Links -->
-      <section class="container">
-
-        <div class="row">
-          <div class="col s6">
-            <a class="port-navigation" href="https://kef12.github.io/Crystal-Collector-Application/Crystal Collector Application/">Crystal
-              Collector Application</a>
-            <img class="Portfolio-Pics-Crystal" src="./assets/images/crystal-game.jpeg" alt="Crystal Collector Game">
-          </div>
-          <br />
-          <hr />
-          <div class="row">
-            <div class="col s6">
-              <a class="port-navigation" href="https://kef12.github.io/Giphy-API-Application/">GIPHY API Application</a>
-              <img class="Portfolio-Pics-Giph" src="./assets/images/giphy_logo_square_social.png" alt="Gif Game">
-            </div>
-
-            <br />
-            <hr />
-
-            <div class="row">
-              <div class="col s6">
-                <a class="port-navigation" href="https://kef12.github.io/Train-Scheduler-Application/">Train Scheduler
-                  Application</a>
-                <img class="Portfolio-Pics-Train" src="./assets/images/train-scheduler.jpeg" alt="Train Scheduler">
-              </div>
-
-              <br />
-              <hr />
-              <div class="row">
-                <div class="col s6">
-                  <a class="port-navigation" href="https://kef12.github.io/Project-One/">Job Search Application</a>
-                  <img class="Portfolio-Pics-Job" src="./assets/images/think-professional.jpg" alt="Project One">
-                </div>
-                <hr />
-                <div class="row">
-                  <div class="col s6">
-                    <a class="port-navigation" href="https://kef12.github.io/liri-node-application/">Liri Application</a>
-                    <img class="Portfolio-Pics-Liri" src="./assets/images/liri-node.jpeg" alt="Liri Node Application">
-                  </div>
-                  <br />
-                  <hr />
-                  <div class="row">
-                    <div class="col s6">
-                      <a class="port-navigation" href="https://kef12.github.io/Friend-Finder/">Friend-Finder Application</a>
-                      <img class="Portfolio-Pics-Friend" src="./assets/images/friend.jpg" alt="Friend-Finder Application">
-                    </div>
-                    <br />
-                    <hr />
-                    <div class="row">
-                      <div class="col s6">
-                        <a class="port-navigation" href="https://github.com/kef12/burger">Eat da Burger Application</a>
-                        <img class="Portfolio-Pics-Burger" src="./assets/images/burger.jpeg" alt="Eat da Buger Application">
-                      </div>
-                      <br />
-                      <hr />
-      </section>
-
-
-      <br />
-      <hr />
-
-    </section>
-    <!-- Side Bar Section -->
-    <aside class="side-bar">
-      <h3 class="titles">Connect with Me</h3>
-      <h2 class="paragraph">Email:kef12@comcast.net Phone Number:(303)501-4490</h2>
-      <!-- Underline -->
-      <hr />
-      <!-- Images and Links for Social Media -->
-      <section class="link-images">
-        <a href="https://github.com/kef12">
-          <img class="Connect" src="./assets/images/github.png" alt="GitHub-logo">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Me <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio Page</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Application Portfolio
         </a>
-        <a href="https://www.linkedin.com/in/katherine-f-964194b4/">
-          <img class="Connect" src="./assets/images/linkedin.jpeg" alt="LinkedIn-logo">
-        </a>
-        <a href="https://stackoverflow.com/users/10467115/katherine-fleming">
-          <img class="Connect" src="./assets/images/overflow.png" alt="Stack-Overflow-logo">
-        </a>
-      </section>
-    </aside>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://github.com/kef12/Crystal-Collector-Application">Crystal
+            Collector Application</a>
+          <a class="dropdown-item" href=" https://kef12.github.io/Train-Scheduler-Application/">Train Scheduler
+            Application</a>
+          <a class="dropdown-item" href="https://github.com/kef12/burger">Burger Application</a>
+          <a class="dropdown-item" href="https://github.com/kef12/Friend-Finder">Friend-Finder Application</a>
+          <a class="dropdown-item" href="https://github.com/kef12/Project-One">Job Search Application</a>
+          <a class="dropdown-item" href="https://github.com/kef12/Project-Two">Book Match Application</a>
+        </div>
+      </li>
+    </ul>
   </div>
+</nav>
+
+<!--End Navigation Bar-->
+
+<!--Portfolio Images and Links-->
+
+<div class="main-section container">
+  <section>
+    <section class="titles">Portfolio</section>
+    <!-- Underline -->
+    <hr />
+<!--Crystal Collector Application Card-->
+    <div class="card" style="width: 18rem;">
+        <img src="./assets/images/crystal-game.jpeg" class="Portfolio-Pics-Crystal" alt="Crystal-Collector-Application">
+        <div class="card-body">
+          <h5 class="card-title">Crystal Collector Application</h5>
+          <p class="card-text">This is a Crystal Collector application that uses jQuery and JavaScript.</p>
+          <a href="https://kef12.github.io/Crystal-Collector-Application/" class="btn btn-primary">View Application</a>
+        </div>
+      </div>
+<!--GIPHY Application Card-->
+    <div class="card" style="width: 18rem;">
+        <img src="./assets/images/giphy_logo_square_social.png" class="Portfolio-Pics-Giph" alt="GIPHY Application">
+        <div class="card-body">
+          <h5 class="card-title">GIPHY Application</h5>
+          <p class="card-text">This is a GIPHY API Application that creates and populates a dynamic web page with gifs of your choice. </p>
+          <a href="https://kef12.github.io/Giphy-API-Application/" class="btn btn-primary">View Application</a>
+          </div>
+        </div>
+<!--Train Application Card-->
+    <div class="card" style="width: 18rem;">
+        <img src="./assets/images/train-scheduler.jpeg" class="Portfolio-Pics-Train" alt="Train Scheduler Application">
+        <div class="card-body">
+          <h5 class="card-title">Train Scheduler Application</h5>
+          <p class="card-text">This is a train scheduler application that uses HTML, CSS, jQuery, FirebaseDB and Moment.js.</p>
+          <a href="https://kef12.github.io/Train-Scheduler-Application/" class="btn btn-primary">View Application</a>
+        </div>
+      </div>
+
+<!--Job Search Application Card-->
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/images/think-professional.jpg" class="Portfolio-Pics-Job" alt="Job Search Application">
+        <div class="card-body">
+          <h5 class="card-title">Job Search Application</h5>
+          <p class="card-text">This is a job search application that handles users job querys with jQuery and JavaScript, pulls in data from external APIs, stores that data in Firebase, and renders the data with HTML/CSS. </p>
+          <a href="https://kef12.github.io/Project-One/" class="btn btn-primary">View Application</a>
+        </div>
+      </div> 
+<!--Liri Node Application Card-->
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/images/liri-node.jpeg" class="Portfolio-Pics-Liri" alt="Liri Node Application">
+        <div class="card-body">
+          <h5 class="card-title">Liri Node Application</h5>
+          <p class="card-text">The Language Interpretation and Recognition Interface (LIRI) is a command line node application that takes in parameters and returns data.</p>
+          <a href="https://kef12.github.io/liri-node-application/" class="btn btn-primary">View Application</a>
+        </div>
+      </div> 
+<!--Friend-Finder Application-->
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/images/friend.jpg" class="Portfolio-Pics-Friend" alt="Friend-Finder Application">
+        <div class="card-body">
+          <h5 class="card-title">Friend-Finder Application</h5>
+          <p class="card-text">The Friend-Finder application uses [Node.js] and [Express] server on the back end and the [Materialize] CSS framework on the front end to take and compare user input</p>
+          <a href="https://kef12.github.io/Friend-Finder/" class="btn btn-primary">View Application</a>
+        </div>
+      </div> 
+<!--Burger Application-->
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/images/burger.jpeg" class="Portfolio-Pics-Burger" alt="Burger Application">
+        <div class="card-body">
+            <h5 class="card-title">Burger Application</h5>
+            <p class="card-text">The burger application is a "burger logger" that uses MySQL and Node to query and route data; and Handlebars to generate HTML.</p>
+            <a href="https://boiling-waters-80663.herokuapp.com/index" class="btn btn-primary">View Application</a>
+        </div>
+      </div> 
+
+<!--Book Match Application-->
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/images/book-match.jpeg" class="Portfolio-Pics-Book" alt="Book Match Application">
+        <div class="card-body">
+            <h5 class="card-title">Book Match Application</h5>
+            <p class="card-text">The Book Match application uses MySQL and Sequelize to take and store the user's favorite book. It then calls to the GoogleBooks API to match the user with a similar book and renders the results using Handlebars.</p>
+            <a href="https://fast-beyond-47318.herokuapp.com/" class="btn btn-primary">View Application</a>
+        </div>
+      </div> 
+    <br />
+    <hr />
+
+<!--Side Bar Section-->
+  </section>
+  <aside class="side-bar">
+    <h3 class="titles">Connect with Me</h3>
+    <h2 class="paragraph">Email:kef12@comcast.net Phone Number:(303)501-4490</h2>
+    <!-- Underline -->
+    <hr />
+    <!-- Images and Links for Social Media -->
+    <section class="link-images">
+      <a href="https://github.com/kef12">
+        <img class="Connect" src="./assets/images/github.png" alt="GitHub-logo">
+      </a>
+      <a href="https://www.linkedin.com/in/katherine-f-964194b4/">
+        <img class="Connect" src="./assets/images/linkedin.jpeg" alt="LinkedIn-logo">
+      </a>
+      <a href="https://stackoverflow.com/users/10467115/katherine-fleming">
+        <img class="Connect" src="./assets/images/overflow.png" alt="Stack-Overflow-logo">
+      </a>
+    </section>
+  </aside>
+</div>
+<!--Links to jQuery and Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
 </body>
 
 </html>

@@ -12,6 +12,15 @@
 .container {
   width: 960px;
   margin: auto;
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.left, .right {
+  display: table-cell;
 }
 
 .heading {
@@ -135,7 +144,7 @@ h4 {
 .Portfolio-Pics-Job {
   width: 200px;
   height: 200px;
-  margin-left: 10px;
+  margin-left: 45px;
   margin-bottom: 30px;
   float: left;
 }
@@ -143,7 +152,7 @@ h4 {
 .Portfolio-Pics-Train {
   width: 200px;
   height: 200px;
-  margin-left: 20px;
+  margin-left: 45px;
   margin-bottom: 30px;
   float: left;
 }
@@ -151,7 +160,7 @@ h4 {
 .Portfolio-Pics-Giph {
   width: 200px;
   height: 200px;
-  margin-left: 20px;
+  margin-left: 45px;
   margin-bottom: 30px;
   float: left;
 }
@@ -159,7 +168,7 @@ h4 {
 .Portfolio-Pics-Crystal {
   width: 200px;
   height: 200px;
-  margin-left: 10px;
+  margin-left: 45px;
   margin-bottom: 30px;
   float: left;
 }
@@ -167,7 +176,7 @@ h4 {
 .Portfolio-Pics-Liri {
   width: 200px;
   height: 200px;
-  margin-left: 10px;
+  margin-left: 45px;
   margin-bottom: 30px;
   float: left;
 }
@@ -175,7 +184,7 @@ h4 {
 .Portfolio-Pics-Friend {
   width: 200px;
   height: 200px;
-  margin-left: 10px;
+  margin-left: 45px;
   margin-bottom: 30px;
   float: left;
 }
@@ -183,7 +192,15 @@ h4 {
 .Portfolio-Pics-Burger {
   width: 200px;
   height: 200px;
-  margin-left: 10px;
+  margin-left: 45px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.Portfolio-Pics-Book {
+  width: 200px;
+  height: 200px;
+  margin-left: 45px;
   margin-bottom: 30px;
   float: left;
 }
