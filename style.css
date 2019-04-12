@@ -205,6 +205,22 @@ h4 {
   float: left;
 }
 
+.Portfolio-Pics-News {
+  width: 200px;
+  height: 200px;
+  margin-left: 45px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.Portfolio-Pics-Memory {
+  width: 200px;
+  height: 200px;
+  margin-left: 45px;
+  margin-bottom: 30px;
+  float: left;
+}
+
 
 div {
   background-color: #ffffff;
